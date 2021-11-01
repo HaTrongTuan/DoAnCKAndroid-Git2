@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserPage"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imvAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ava"
+            tools:ignore="MissingConstraints" />
+        <ImageButton
+            android:id="@+id/btnCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:background="@null"
+            android:src="@drawable/came"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="87dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID tài khoản"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textSize="13dp"/>
+        <TextView
+            android:id="@+id/txtIdUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01000258"
+            android:textColor="#00BCD4"
+            android:gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/txtNameUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MINT COOKIE"
+            android:textColor="#00BCD4"
+            android:gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/txtPhoneUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0123456789"
+            android:textColor="#00BCD4"
+            android:gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/txtEmailUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abcdef@gmail.com"
+            android:textColor="#00BCD4"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:background="@color/white"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#03A9F4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chỉnh sửa thông tin cá nhân "
+        android:textSize="15dp"
+        android:textColor="#0C0C06"
+        android:gravity="left"
+        android:backgroundTint="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="Bật thông báo "
+            android:textSize="15dp"
+            android:textColor="#0C0C06"
+            android:gravity="left"
+            android:backgroundTint="@color/white" />
+       <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchOnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tắt"
+           android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi mật khẩu "
+        android:textSize="15dp"
+        android:textColor="#0C0C06"
+        android:gravity="left"
+        android:backgroundTint="@color/white"/>
+    <Button
+        android:id="@+id/btnDieuKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điều khoản"
+        android:textSize="15dp"
+        android:textColor="#0C0C06"
+        android:gravity="left"
+        android:backgroundTint="@color/white"/>
+    <Button
+        android:id="@+id/btnCauhoithuonggap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi thường gặp"
+        android:textSize="15dp"
+        android:textColor="#0C0C06"
+        android:gravity="left"
+        android:backgroundTint="@color/white"/>
+    <Button
+        android:id="@+id/btnLienhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liên hệ"
+        android:textSize="15dp"
+        android:textColor="#0C0C06"
+        android:gravity="left"
+        android:backgroundTint="@color/white"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng xuất "
+        android:textSize="15dp"
+        android:textColor="#F44336"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"/>
+
+
+</LinearLayout>

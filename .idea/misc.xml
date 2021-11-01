@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/drawable/botron_button.xml" value="0.2703125" />
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/layout/activity_notification.xml" value="0.264" />
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/layout/activity_premium.xml" value="0.264" />
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/layout/activity_process.xml" value="0.264" />
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/layout/activity_user_page.xml" value="0.264" />
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/layout/itemlist_lichsulophoc.xml" value="0.264" />
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/layout/itemlist_notification.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/layout/itemlist_process.xml" value="0.264" />
+        <entry key="..\:/Android/AndroidStudioProject/Doancuoiki/app/src/main/res/layout/notification.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
