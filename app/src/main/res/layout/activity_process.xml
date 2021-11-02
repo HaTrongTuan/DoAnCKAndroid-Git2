@@ -30,7 +30,7 @@
             android:text="Lịch sử lớp học"
             android:textColor="@color/black"
             android:textSize="13dp"
-            android:background="@drawable/botron_button" />
+            android:background="@drawable/botron_button"/>
         <Button
             android:id="@+id/btnLophocsapdienra"
             android:layout_width="wrap_content"
