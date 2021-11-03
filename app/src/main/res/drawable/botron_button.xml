@@ -3,7 +3,7 @@
     android:shape="rectangle"
     >
     <solid
-        android:color="#F5F4F8F6" >
+        android:color="#3BD9ED" >
     </solid>
 
     <!-- đặt thuộc tính màu và độ rộng của đường viền -->
